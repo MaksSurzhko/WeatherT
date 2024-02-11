@@ -20,11 +20,11 @@ const Footer = () => {
           <img  src={telegram} alt="telegram" className={foocss.telegram} />
           Telegram
         </a>
-        <a className={foocss.linkk} href="https://t.me/MaksSurzhko" target="_blank" rel="noopener noreferrer">
+        <a className={foocss.linkk} href="https://github.com/MaksSurzhko" target="_blank" rel="noopener noreferrer">
           <img  src={github} alt="github" className={foocss.telegram} />
           GitHub
         </a>
-        <a className={foocss.linkk} href="https://t.me/MaksSurzhko" target="_blank" rel="noopener noreferrer">
+        <a className={foocss.linkk} href="https://www.linkedin.com/in/maksym-surzhko-451388272/" target="_blank" rel="noopener noreferrer">
           <img  src={linkedin} alt="linkedin" className={foocss.telegram} />
           Linkedin
         </a>
