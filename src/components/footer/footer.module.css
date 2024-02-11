@@ -1,37 +1,55 @@
 .footer {
     display: flex;
-    /* text-align: center; */
+    justify-content: space-between;
     padding: 20px;
     background-color: #282c34;
     color: #FFFFFF;
-    /* position: fixed; */
     bottom: 0;
     left: 0;
-    /* width: 100%; */
     margin-top: 100px;
-
 }
 
-
-
-.fooBox{
+.fooBox {
     margin-left: 30px;
 }
 
-.title{
+.title {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: calc(21 / 18);}
+    line-height: calc(21 / 18);
+}
 
-
-    .link{
-       
+.link {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.logo{
-        width: 180px;
-            height: 80px;
+.logo {
+    width: 180px;
+    height: 80px;
+}
+
+.fooBoxx {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.linkk {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(24 / 20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.telegram {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
 }
