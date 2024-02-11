@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import scss from './searchBar.module.css';
 import { useTranslation } from 'react-i18next';
 

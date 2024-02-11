@@ -4,7 +4,7 @@ import hcss from './header.module.css';
 import logo from '../img/logo.png'
 
 const Header = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);

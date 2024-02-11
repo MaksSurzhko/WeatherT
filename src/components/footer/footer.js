@@ -1,11 +1,11 @@
 import React from 'react';
 import foocss from './footer.module.css';
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 import logo from '../img/logo.png'
 
 const Footer = () => {
 
-    const { t } = useTranslation()
+    // const { t } = useTranslation()
 
   return (
       <footer className={foocss.footer}>
